@@ -6,6 +6,4 @@ COPY . /src
 
 WORKDIR /src
 
-RUN npm install
-
 ENTRYPOINT ["bash", "./hello.sh"]
